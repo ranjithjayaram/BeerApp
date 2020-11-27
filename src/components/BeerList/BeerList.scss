@@ -1,0 +1,62 @@
+.list-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.productListView{
+    background: cadetblue;
+    width: 23%;
+    min-height: 100px;
+    margin: 1%;
+    font-family: Roboto;
+}
+.pagination{
+    width: 60%;
+    height: 50px;
+    margin-left: 20%;
+    background: #91daea;
+    padding-top: 20px;
+}
+.pagination-block{
+    width: 20px;
+    height: 30px;
+    background: white;
+    margin: 5px;
+    
+}
+.prev{
+    float: left;
+    padding-left: 40%;
+}
+.next{
+    float: right;
+    padding-right: 40%;
+}
+.MuiSvgIcon-root{
+    font-size: 2.5rem !important;
+}
+.search-item{
+    height: 50px;
+}
+.search-item input{
+    margin-top: 10px;
+    width: 30%;
+    height: 30px;
+    border: 3px cadetblue solid;
+    border-radius: 10px;
+}
+.search-item input:focus{
+    outline: none;
+}
+.search-btn{
+    height: 30px;
+    margin-left: 20px;
+    width: 100px;
+    border-radius: 20px;
+    background: cadetblue;
+    border: none
+}
+@media (max-width:576px) {
+    .productListView{
+        width: 48%;
+    }
+}
